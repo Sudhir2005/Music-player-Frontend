@@ -1,0 +1,19 @@
+.theme-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .theme-switcher button {
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .theme-switcher button:hover {
+    background-color: #0056b3;
+  }
+  

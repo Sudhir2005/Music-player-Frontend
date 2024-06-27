@@ -10,6 +10,9 @@ const Navbar = () => {
                 <img src={logo} alt="Logo" />
         </div>
       <div className="navbar-brand">Cheems.<i>Play</i></div>
+      <div className='author-name'>
+      By <i>Sudhir Raja😤</i>
+      </div>
       <ul className="navbar-nav">
         <li className="nav-item"><a href="#">Home</a></li>
         <li className="nav-item"><a href="#">Search</a></li>

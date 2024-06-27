@@ -1,6 +1,6 @@
 .navbar {
     width: 100%;
-    background-color: #1f1f1f;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,148,59,1) 47%, rgba(1,219,88,1) 83%, rgba(0,255,102,1) 100%);
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -26,9 +26,16 @@
   .nav-item a {
     color: #ffffff;
     text-decoration: none;
+    background-color: black;
+    
+    
   }
   
   .nav-item a:hover {
-    text-decoration: underline;
+    background-color: #000000;
   }
   
+  .author-name{
+    font-family: monospace;
+    color: #ffffff;
+  }
