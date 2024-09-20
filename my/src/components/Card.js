@@ -8,7 +8,7 @@ const Card = ({ title, artist, description, imageUrl }) => {
         <h5 className="card-title">{title}</h5>
         {artist && <p className="card-text">{artist}</p>}
         {description && <p className="card-text">{description}</p>}
-        <a href="#" className="btn btn-primary">Play</a>
+        <a href="" className="btn btn-primary">Play</a>
       </div>
     </div>
   );
